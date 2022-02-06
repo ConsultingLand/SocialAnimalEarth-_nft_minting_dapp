@@ -30,10 +30,12 @@ const Focus = () => {
         whileInView="visible"
         viewport={{ once: true }}
         transition={{ duration: 2 }}
-        variants={{
-          // visible: { y: 0, opacity: 1 },
-          // hidden: { y: 4, opacity: 0 },
-        }}
+        variants={
+          {
+            // visible: { y: 0, opacity: 1 },
+            // hidden: { y: 4, opacity: 0 },
+          }
+        }
         className="section-container"
       >
         <div className="left-section">
@@ -43,10 +45,12 @@ const Focus = () => {
             whileInView="visible"
             viewport={{ once: true }}
             transition={{ duration: 2 }}
-            variants={{
-              // visible: { y: 0, opacity: 1 },
-              // hidden: { y: 10, opacity: 0 },
-            }}
+            variants={
+              {
+                // visible: { y: 0, opacity: 1 },
+                // hidden: { y: 10, opacity: 0 },
+              }
+            }
             className="section-paragraph"
           >
             SocialAnimalEarth is working and focusing to develop and emproof
@@ -60,10 +64,12 @@ const Focus = () => {
             whileInView="visible"
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            variants={{
-              // visible: { x: 0, opacity: 1 },
-              // hidden: { x: -10, opacity: 0 },
-            }}
+            variants={
+              {
+                // visible: { x: 0, opacity: 1 },
+                // hidden: { x: -10, opacity: 0 },
+              }
+            }
             href="#"
             className="section-button"
           >

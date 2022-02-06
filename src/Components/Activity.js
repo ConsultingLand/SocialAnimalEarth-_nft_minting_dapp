@@ -72,6 +72,10 @@ const Activity = ({ id }) => {
         loop
         margin={10}
         nav
+        navText={false}
+        autoPlay={true}
+        autoplaySpeed={1000}
+        dots={false}
         style={{ margin: "3rem 0" }}
       >
         {NFTImages.map((nft, idx) => {
@@ -98,9 +102,9 @@ const Activity = ({ id }) => {
               class="item"
               style={{ overflow: "hidden", position: "relative" }}
             >
-              <div className="nft-title-number">0{idx + 1}</div>
               <img src={nft.image} />
               <div className="nft-content">
+                <div className="nft-title-number">0{idx + 1}</div>
                 <div className="title">{nft.title}</div>
                 <div className="description">{nft.description}</div>
               </div>

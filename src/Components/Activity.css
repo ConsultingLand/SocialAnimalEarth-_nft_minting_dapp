@@ -64,9 +64,9 @@
   font-size: 4rem;
 }
 
-.activity-section .nft-section .nft-block .nft-content .nft-title {
+.activity-section .nft-section .nft-block .nft-content .title {
   font-weight: bold;
-  margin: 0.4rem 0;
+  margin: 2rem 0;
   font-size: 1.2rem;
 }
 
@@ -76,5 +76,34 @@
   }
   .activity-section .owl-theme {
     display: none !important;
+  }
+
+  .carousel .control-dots {
+    display: none !important;
+  }
+  .section .nft-title-number {
+    font-size: 3rem;
+  }
+
+  .section .nft-content {
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  .section .nft-content .title {
+    margin: 1rem 0;
+    font-weight: bold;
+
+    font-size: 1.7rem;
+  }
+  .section .nft-content .description {
+    width: 80%;
+    text-align: justify;
+    margin: 1rem auto;
+    line-height: 1.5rem;
+  }
+  .carousel .thumbs-wrapper {
+    margin: 40px 0;
+    overflow: hidden;
   }
 }

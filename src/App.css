@@ -255,10 +255,6 @@ section .section-container img,
     flex-direction: column;
   }
 
-  .section .nft-title-number {
-    display: none;
-  }
-
   .section .section-container .planet-image {
     display: none !important;
   }

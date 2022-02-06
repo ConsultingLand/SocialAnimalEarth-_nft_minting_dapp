@@ -17,7 +17,11 @@ import ParticleConfig from "../config/particle-config";
 import Stars from "./Stars";
 
 //React animation library
-import { useViewportScroll, motion, useTransform } from "framer-motion/dist/es/index";
+import {
+  useViewportScroll,
+  motion,
+  useTransform,
+} from "framer-motion/dist/es/index";
 
 const Home = ({ id }) => {
   const { scrollY } = useViewportScroll();
@@ -52,9 +56,7 @@ const Home = ({ id }) => {
             <motion.button className="home-button">
               Available Feb.22nd
             </motion.button>
-            <button className="connect-mask">
-              Connect to MetaMask <i class="fas fa-mask"></i>
-            </button>
+            <button className="connect-mask">Connect to MetaMask</button>
 
             <SocialMediaLinks>
               <SocialMediaLink

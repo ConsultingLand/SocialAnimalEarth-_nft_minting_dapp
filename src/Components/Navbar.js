@@ -49,9 +49,11 @@ const Navbar = ({ navBackground }) => {
                 className="hamburger-menu-list-item"
                 onClick={() => handleScrollToSection("home")}
               >
-                <a className="text-decoration-none text-white"
+                <a
+                  className="text-decoration-none text-white"
                   href="https://opensea.io/collection/albert-einstein-serie-v3"
                   target={"_blank"}
+                  style={{ color: "#fff", textDecoration: "none" }}
                 >
                   Collections
                 </a>
@@ -61,7 +63,8 @@ const Navbar = ({ navBackground }) => {
                 animate
                 onClick={() => handleScrollToSection("about")}
               >
-                 <a
+                <a
+                  style={{ color: "#fff", textDecoration: "none" }}
                   href="https://docs.socialanimal.earth/socialanimal.earth-main-concept/roadmap"
                   target={"_blank"}
                 >
@@ -73,6 +76,7 @@ const Navbar = ({ navBackground }) => {
                 onClick={() => handleScrollToSection("contact")}
               >
                 <a
+                  style={{ color: "#fff", textDecoration: "none" }}
                   href="https://docs.socialanimal.earth/"
                   target={"_blank"}
                 >
