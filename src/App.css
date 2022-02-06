@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap");
+
+ul {
+  padding: 0 !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+.section > img,
+section .section-container img,
+.section
+  .section-container
+  .top-section
+  img
+  .section
+  .section-container.right-section
+  img {
+  user-select: none;
+}
+
+.section.light {
+  background-color: #fff;
+  color: #130523;
+}
+
+.section.light .section-container .left-section .section-title {
+  color: #130523 !important;
+}
+
+.section .circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  padding: 3px;
+  position: absolute;
+  top: 0;
+
+  margin: 1rem auto;
+}
+
+.section .circle.dark {
+  background-color: #1c184c;
+}
+.section.circle.light {
+  background-color: #fff;
+}
+
+.section-free {
+  height: 100% !important;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.section .section .section-title {
+  font-size: 4rem;
+  text-align: center;
+  color: #fff;
+}
+
+.section .section-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section .section-container .section-title {
+  color: #fff !important;
+}
+
+.dark-section {
+  background-color: #130523;
+  color: #fff;
+  position: relative;
+}
+
+.section .section-container .left-section {
+  align-self: center;
+}
+
+.section .section-container .section-title {
+  font-size: 4rem;
+  color: #1c184c;
+  text-align: left;
+}
+.activity-section .section-title {
+  font-size: 4rem;
+}
+.dark-section .section-container .section-title {
+  color: #fff;
+  text-align: left;
+}
+.section .section-container .section-paragraph {
+  font-size: 1.2rem;
+  width: 700px;
+  line-height: 2rem;
+  margin: 1rem 0;
+  text-align: justify;
+}
+
+.section .section-container .section-button {
+  background-color: #ee792c;
+  color: #fff;
+  border: none;
+  border-radius: 23px;
+  font-size: 1rem;
+  padding: 10px 25px;
+  display: block;
+  float: left;
+  cursor: pointer;
+  margin: 2rem 0;
+  text-decoration: none;
+}
+
+.section-column .section-container {
+  flex-direction: column;
+}
+
+.section-column .planet-image {
+  display: flex;
+  justify-content: end;
+  width: 700px;
+  height: 700px;
+}
+
+@media only screen and (max-width: 1366px) {
+  body {
+    overflow-x: hidden;
+  }
+  .section {
+    height: 100vh;
+    /* padding: 1rem; */
+  }
+  .section .section-container {
+    padding: 1rem;
+  }
+  .home .section-container .left-section .section-title {
+    font-size: 5em !important;
+  }
+  .home .section-container .left-section .home-paragraph {
+    font-size: 1rem !important;
+    width: 400px;
+    color: rgba(255, 255, 255, 0.57);
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-device-width: 280px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .section {
+    height: 100%;
+    /* padding: 1rem; */
+  }
+
+  .section .section-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    grid-row-gap: 30px;
+  }
+
+  .section.introduction .section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section.introduction .section-container .left-section {
+    margin-bottom: 20rem;
+  }
+
+  .section .section-container .left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section .section-container .section-title {
+    text-align: center;
+    font-size: 2rem !important;
+  }
+
+  .home {
+    height: 100% !important;
+  }
+  .home .section-container .left-section .section-title {
+    font-size: 2rem !important;
+    margin-bottom: 1rem;
+  }
+
+  .dark-section .section-container .section-title {
+    text-align: center;
+  }
+
+  .activity-section .section-title {
+    font-size: 2rem;
+  }
+
+  .section .section-container .saturn-image {
+    width: 70%;
+    height: auto;
+  }
+
+  .section-title.road-map {
+    margin-top: 4rem;
+    font-size: 2rem !important;
+  }
+
+  .section .section-container .section-paragraph {
+    text-align: center;
+    margin: 1rem auto;
+    width: 90%;
+  }
+  .section .section-container .section-button {
+    margin: 0 auto;
+  }
+  .section .section-container .planet-image {
+    width: 79%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .section.home .section-container {
+    margin-top: 20%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-column .section-container .planet-image {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .section .section-container .top-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .section .nft-title-number {
+    display: none;
+  }
+
+  .section .section-container .planet-image {
+    display: none !important;
+  }
+}

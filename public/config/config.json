@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x9B12f5d0ce88f752B4f634b689B6EaA08C67c032",
+  "SCAN_LINK": "https://polygonscan.com/token/0x9B12f5d0ce88f752B4f634b689B6EaA08C67c032",
+  "NETWORK": {
+    "NAME": "Polygon",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "SocialAnimalEarth",
+  "SYMBOL": "SAEAE ",
+  "MAX_SUPPLY": 9999,
+  "WEI_COST": 75000000000000000,
+  "DISPLAY_COST": 55,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/albert-einstein-serie-v3",
+  "SHOW_BACKGROUND": true
+}

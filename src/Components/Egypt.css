@@ -1,0 +1,116 @@
+.egypt-section {
+  display: flex;
+  flex-direction: column;
+  height: 100% !important;
+  align-items: center;
+  border-radius: 100%;
+  background-image: url("../images/pyramidsbg.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 4rem 0;
+  justify-content: center;
+  position: relative;
+}
+
+.egypt-section .egypt-concepts {
+  display: flex;
+  height: auto;
+
+  justify-content: center;
+}
+
+.egypt-section .egypt-concepts .egypt-concept {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin: 1rem 5rem 1rem 5rem;
+  justify-content: space-between;
+}
+
+.egypt-section .egypt-concepts .egypt-concept .right-concept {
+  width: 400px;
+  height: 100%;
+  background-color: "#fff";
+  background-image: "linear-gradient(43deg,#fff 0%,#fff 15%,#fff 100%)";
+  border-radius: "100%";
+  box-shadow: "#fff 10px -2px 110px, #4158d0 0 -10px 20px,5px 5px 15px 5px rgba(0, 0, 0, 0)";
+
+  -webkit-transform: scale(0.75) rotateY(-30deg) rotateX(45deg)
+    translateZ(4.5rem);
+  transform: scale(0.75) rotateY(-30deg) rotateX(45deg) translateZ(4.5rem);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  -webkit-transition: 0.6s ease transform;
+  transition: 0.6s ease transform;
+}
+
+.egypt-section .egypt-concepts .egypt-concept .right-concept.left {
+  -webkit-transform: scale(0.75) rotateY(30deg) rotateX(45deg)
+    translateZ(4.5rem);
+  transform: scale(0.75) rotateY(30deg) rotateX(45deg) translateZ(4.5rem);
+}
+
+.egypt-section .egypt-concepts .egypt-concept .right-concept:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.egypt-section .egypt-concepts .egypt-concept .right-concept::before {
+  -webkit-transform: translateZ(4rem);
+  transform: translateZ(4rem);
+}
+
+.egypt-section .egypt-concepts .egypt-concept .right-concept::before:hover {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.egypt-section .egypt-concepts .egypt-concept .right-concept::after {
+  -webkit-transform: translateZ(-4rem);
+  transform: translateZ(-4rem);
+}
+
+.egypt-section .egypt-concepts .egypt-concept .right-concept::after:hover {
+  -webkit-transform: translateZ(-1px);
+  transform: translateZ(-1px);
+}
+/*# sourceMappingURL=deneme.css.map */
+
+.egypt-section .egypt-concepts .egypt-concept .right-concept img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 1024px) and (min-device-width: 280px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .egypt-section .egypt-concepts {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .egypt-section {
+    background-image: none;
+  }
+
+  .egypt-section .section-title {
+    font-size: 2rem;
+  }
+
+  .egypt-section .egypt-concepts .egypt-concept {
+    margin: 1rem 0;
+  }
+
+  .egypt-section .egypt-concepts .egypt-concept .right-concept,
+  .egypt-section .egypt-concepts .egypt-concept .right-concept.left {
+    -webkit-transform: scale(0.75) rotateY(0deg) rotateX(0deg) translateZ(0);
+    transform: scale(0.75) rotateY(0deg) rotateX(0deg) translateZ(0);
+    transition: none;
+  }
+}

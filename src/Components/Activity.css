@@ -1,0 +1,80 @@
+.activity-section {
+  height: 100% !important;
+  padding: 2rem 0;
+
+  background: rgb(43, 103, 137);
+  background: linear-gradient(
+    180deg,
+    rgba(43, 103, 137, 1) 0%,
+    rgba(28, 24, 76, 1) 72%,
+    rgba(28, 24, 76, 1) 85%,
+    rgba(28, 24, 76, 1) 100%
+  );
+}
+
+.activity-section .nft-section {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 4rem 0;
+}
+
+.activity-section .responsiveCarousel {
+  display: none;
+}
+
+.activity-section .section-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.activity-section .nft-section .nft-block {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.activity-section .nft-section .nft-block:hover .nft-content {
+  transform: translateY(0%);
+}
+
+.activity-section .nft-section .nft-block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.activity-section .nft-section .nft-block .nft-content {
+  transform: translateY(100%);
+  background-color: #1305238e;
+  transition: transform 0.4s ease-in-out;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+}
+
+.activity-section .nft-title-number {
+  font-weight: bold;
+  font-family: "Stalinist One", cursive;
+  font-size: 4rem;
+}
+
+.activity-section .nft-section .nft-block .nft-content .nft-title {
+  font-weight: bold;
+  margin: 0.4rem 0;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1024px) and (min-device-width: 280px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .activity-section .responsiveCarousel {
+    display: block;
+  }
+  .activity-section .owl-theme {
+    display: none !important;
+  }
+}

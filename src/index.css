@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Gothic A1", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  /* min-height: 15000px; */
+  overflow-x: hidden;
+  background-color: #130523;
+  box-sizing: border-box;
+}
+video {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

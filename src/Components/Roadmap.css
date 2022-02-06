@@ -1,0 +1,13 @@
+.section.earth-section {
+  background: rgb(19, 5, 35);
+  background: linear-gradient(
+    360deg,
+    rgba(19, 5, 35, 1) 0%,
+    rgba(19, 5, 35, 1) 0%,
+    rgba(28, 24, 76, 1) 65%
+  );
+}
+.section-title.road-map {
+  margin-top: 4rem;
+  font-size: 2rem !important;
+}
